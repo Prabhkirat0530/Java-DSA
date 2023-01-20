@@ -1,4 +1,4 @@
-package Practice;
+package Recursion;
 
 public class Recursion1 {
 
@@ -8,13 +8,12 @@ public class Recursion1 {
         }
         System.out.println(n);
 
-        // Function calling itself
+        // recursion
         printNumbers(n - 1);
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int n = 5;
-
         printNumbers(n);
     }
 }
